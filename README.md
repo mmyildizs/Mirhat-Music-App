@@ -6,7 +6,9 @@ It is also related to the database. / Veritabanı ile de alakalıdır.
 # MySQL Workbench
 ----------------------
 1- If you don't have MySQL Workbench, you should download it.
+
 2- Import Dump20221018.sql to your database.
+
 3- Enjoy it.
 
 # For Images
