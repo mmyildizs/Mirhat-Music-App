@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="600.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UAlbumsController">
+   <children>
+      <Label layoutX="325.0" layoutY="255.0" prefHeight="54.0" prefWidth="86.0" text="Album" />
+   </children>
+</AnchorPane>

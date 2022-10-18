@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="600.0" prefWidth="700.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UUsersController">
+   <children>
+      <Label layoutX="90.0" layoutY="60.0" prefHeight="50.0" prefWidth="150.0" text="Users">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Line endX="452.0" layoutX="190.0" layoutY="110.0" startX="-100.0" />
+      <Label fx:id="showUsersLabel" layoutX="90.0" layoutY="148.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="viewButton" layoutX="552.0" layoutY="119.0" mnemonicParsing="false" onAction="#viewButtonAction" prefHeight="54.0" prefWidth="91.0" styleClass="btnsADU" text="View" textFill="WHITE" />
+      <Label fx:id="showUsersLabel2" layoutX="90.0" layoutY="182.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel3" layoutX="90.0" layoutY="216.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel4" layoutX="90.0" layoutY="250.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel5" layoutX="90.0" layoutY="284.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel6" layoutX="90.0" layoutY="318.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel7" layoutX="90.0" layoutY="352.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel8" layoutX="90.0" layoutY="386.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel1" layoutX="265.0" layoutY="148.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel2" layoutX="265.0" layoutY="182.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel3" layoutX="265.0" layoutY="216.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel4" layoutX="265.0" layoutY="250.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel5" layoutX="265.0" layoutY="284.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel6" layoutX="265.0" layoutY="318.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel7" layoutX="265.0" layoutY="352.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel8" layoutX="265.0" layoutY="386.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="123.0" prefHeight="24.0" prefWidth="55.0" text="Username" />
+      <Label layoutX="315.0" layoutY="123.0" prefHeight="24.0" prefWidth="70.0" text="Membership" />
+      <Label fx:id="showUsersLabel9" layoutX="90.0" layoutY="420.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel10" layoutX="90.0" layoutY="454.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel11" layoutX="90.0" layoutY="488.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel12" layoutX="90.0" layoutY="522.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel9" layoutX="265.0" layoutY="420.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel10" layoutX="265.0" layoutY="454.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel11" layoutX="265.0" layoutY="488.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel12" layoutX="265.0" layoutY="522.0" prefHeight="34.0" prefWidth="175.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="followButton1" layoutX="442.0" layoutY="152.0" mnemonicParsing="false" onAction="#followButtonAction1" onMousePressed="#followButtonAction1" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton2" layoutX="442.0" layoutY="186.0" mnemonicParsing="false" onAction="#followButtonAction2" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton3" layoutX="442.0" layoutY="219.0" mnemonicParsing="false" onAction="#followButtonAction3" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton4" layoutX="442.0" layoutY="252.0" mnemonicParsing="false" onAction="#followButtonAction4" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton5" layoutX="442.0" layoutY="288.0" mnemonicParsing="false" onAction="#followButtonAction5" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton6" layoutX="442.0" layoutY="322.0" mnemonicParsing="false" onAction="#followButtonAction6" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton7" layoutX="442.0" layoutY="356.0" mnemonicParsing="false" onAction="#followButtonAction7" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton8" layoutX="442.0" layoutY="390.0" mnemonicParsing="false" onAction="#followButtonAction8" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton9" layoutX="442.0" layoutY="424.0" mnemonicParsing="false" onAction="#followButtonAction9" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton10" layoutX="442.0" layoutY="458.0" mnemonicParsing="false" onAction="#followButtonAction10" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton11" layoutX="442.0" layoutY="492.0" mnemonicParsing="false" onAction="#followButtonAction11" styleClass="followBtns" text="Follow" />
+      <Button fx:id="followButton12" layoutX="442.0" layoutY="526.0" mnemonicParsing="false" onAction="#followButtonAction12" styleClass="followBtns" text="Follow" />
+      <Button fx:id="unfollowButton1" layoutX="442.0" layoutY="152.0" mnemonicParsing="false" onAction="#unfollowButtonAction1" onMousePressed="#followButtonAction1" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton2" layoutX="442.0" layoutY="186.0" mnemonicParsing="false" onAction="#unfollowButtonAction2" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton3" layoutX="442.0" layoutY="219.0" mnemonicParsing="false" onAction="#unfollowButtonAction3" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton4" layoutX="442.0" layoutY="252.0" mnemonicParsing="false" onAction="#unfollowButtonAction4" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton5" layoutX="442.0" layoutY="288.0" mnemonicParsing="false" onAction="#unfollowButtonAction5" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton6" layoutX="442.0" layoutY="322.0" mnemonicParsing="false" onAction="#unfollowButtonAction6" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton7" layoutX="442.0" layoutY="356.0" mnemonicParsing="false" onAction="#unfollowButtonAction7" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton8" layoutX="442.0" layoutY="390.0" mnemonicParsing="false" onAction="#unfollowButtonAction8" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton9" layoutX="442.0" layoutY="424.0" mnemonicParsing="false" onAction="#unfollowButtonAction9" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton10" layoutX="442.0" layoutY="458.0" mnemonicParsing="false" onAction="#unfollowButtonAction10" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton11" layoutX="442.0" layoutY="492.0" mnemonicParsing="false" onAction="#unfollowButtonAction11" styleClass="unfollowBtns" text="Unfollow" />
+      <Button fx:id="unfollowButton12" layoutX="442.0" layoutY="526.0" mnemonicParsing="false" onAction="#unfollowButtonAction12" styleClass="unfollowBtns" text="Unfollow" />
+   </children>
+</AnchorPane>

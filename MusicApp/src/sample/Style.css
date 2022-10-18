@@ -1,0 +1,103 @@
+.btn{
+-fx-background-color: #202332
+}
+.btn:hover
+{
+-fx-background-color: black
+}
+.exit
+{
+-fx-background-color: null
+}
+.exit:hover
+{
+-fx-background-color: #202332;
+-fx-text-fill: #D100FF;
+}
+.addBtn
+{
+-fx-background-radius: 75;
+-fx-background-color: blue;
+}
+
+.btns{
+-fx-background-color: null;
+-fx-text-fill : white;
+}
+
+.btns:hover{
+-fx-background-color: null;
+-fx-text-fill: #D100FF;
+}
+
+.btnsADU
+{
+-fx-background-radius:100;
+-fx-background-color: #202332;
+-fx-text-fill: white;
+}
+
+.btnsADU:hover
+{
+-fx-background-color: black;
+-fx-text-fill: #D100FF;
+}
+
+.lgBtns
+{
+-fx-background-color: #A200FF;
+-fx-text-fill: white;
+}
+.lgBtns:hover
+{
+-fx-background-color: #AC42E9;
+-fx-text-fill: white;
+}
+
+.followBtns
+{
+-fx-background-color: #48F94F;
+-fx-text-fill: white;
+}
+
+.followBtns:hover
+{
+-fx-background-color: #1FF527;
+-fx-text-fill: #AF00FF;
+}
+
+.unfollowBtns
+{
+-fx-background-color: #EE3636;
+-fx-text-fill: white;
+}
+
+.unfollowBtns:hover
+{
+-fx-background-color: #FF0000;
+-fx-text-fill: white;
+}
+
+.listenBtns
+{
+-fx-background-color: #6F00B2;
+-fx-text-fill: white;
+}
+.listenBtns:hover
+{
+-fx-background-color: #9C04F9;
+-fx-text-fill: yellow;
+}
+
+.pnbBtns
+{
+-fx-background-color: #6F00B2;
+-fx-text-fill: white;
+}
+
+.pnbBtns:hover
+{
+-fx-background-color: #9C04F9;
+-fx-text-fill: yellow;
+-fx-border-color: #6F00B2;
+}

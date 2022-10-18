@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="250.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="MMYView" fitHeight="400.0" fitWidth="250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/MMY.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="musicIconView" fitHeight="47.0" fitWidth="48.0" layoutX="152.0" layoutY="137.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8-musical-96.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="354.0" style="-fx-background-color: #F2D6EE;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="iconImageView" fitHeight="96.0" fitWidth="100.0" layoutX="125.0" layoutY="39.0" pickOnBounds="true" smooth="false">
+               <image>
+                  <Image url="@../../../../Pictures/images/icons8-login-96.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="usernameTextField" layoutX="91.0" layoutY="163.0" prefHeight="26.0" prefWidth="190.0" promptText="Username" style="-fx-background-color: #F2D6EE; -fx-border-color: transparent transparent black transparent;" />
+            <PasswordField fx:id="passwordTextField" layoutX="91.0" layoutY="219.0" prefHeight="26.0" prefWidth="190.0" promptText="Password" style="-fx-background-color: #F2D6EE; -fx-border-color: transparent transparent black transparent;" />
+            <Button fx:id="loginButton" layoutX="72.0" layoutY="292.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="30.0" prefWidth="228.0" styleClass="lgBtns" text="Login" textFill="WHITE" />
+            <Button fx:id="cancelButton" layoutX="319.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="30.0" prefWidth="32.0" styleClass="exit" text="X" />
+            <Label fx:id="loginMessageLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="72.0" layoutY="267.0" prefHeight="18.0" prefWidth="228.0" textFill="RED" />
+            <Button fx:id="registerButton" layoutX="72.0" layoutY="338.0" mnemonicParsing="false" onAction="#createAccountForm" prefHeight="30.0" prefWidth="228.0" styleClass="lgBtns" text="Register" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

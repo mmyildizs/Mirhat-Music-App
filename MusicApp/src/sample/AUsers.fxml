@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: null;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AUsersController">
+   <children>
+      <Label layoutX="80.0" layoutY="50.0" prefHeight="50.0" prefWidth="150.0" text="Users">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Line endX="452.0" layoutX="180.0" layoutY="100.0" startX="-100.0" />
+      <Label fx:id="showUsersLabel" layoutX="80.0" layoutY="138.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="viewButton" layoutX="542.0" layoutY="109.0" mnemonicParsing="false" onAction="#viewButtonAction" prefHeight="54.0" prefWidth="91.0" styleClass="btnsADU" text="View" textFill="WHITE" />
+      <Label fx:id="showUsersLabel2" layoutX="80.0" layoutY="172.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label fx:id="showUsersLabel3" layoutX="80.0" layoutY="206.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel4" layoutX="80.0" layoutY="240.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel5" layoutX="80.0" layoutY="274.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel6" layoutX="80.0" layoutY="308.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel7" layoutX="80.0" layoutY="342.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel8" layoutX="80.0" layoutY="376.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel1" layoutX="290.0" layoutY="138.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel2" layoutX="290.0" layoutY="172.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel3" layoutX="290.0" layoutY="206.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel4" layoutX="290.0" layoutY="240.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel5" layoutX="290.0" layoutY="274.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel6" layoutX="290.0" layoutY="308.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel7" layoutX="290.0" layoutY="342.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel8" layoutX="290.0" layoutY="376.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="113.0" prefHeight="24.0" prefWidth="55.0" text="Username" />
+      <Label layoutX="360.0" layoutY="113.0" prefHeight="24.0" prefWidth="70.0" text="Membership" />
+      <Label fx:id="showUsersLabel9" layoutX="80.0" layoutY="410.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel10" layoutX="80.0" layoutY="444.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel11" layoutX="80.0" layoutY="478.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersLabel12" layoutX="80.0" layoutY="512.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel9" layoutX="290.0" layoutY="410.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel10" layoutX="290.0" layoutY="444.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel11" layoutX="290.0" layoutY="478.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showUsersMMLabel12" layoutX="290.0" layoutY="512.0" prefHeight="34.0" prefWidth="210.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

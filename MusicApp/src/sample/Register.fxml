@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #F2D6EE;" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegisterController">
+   <children>
+      <AnchorPane prefHeight="110.0" prefWidth="600.0" style="-fx-background-color: #EBBCE3;">
+         <children>
+            <ImageView fx:id="registerImageView" fitHeight="83.0" fitWidth="137.0" layoutX="42.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Pictures/images/icons8-dyndns-96.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="146.0" layoutY="47.0" text="User Registration" textFill="#733162">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <TextField fx:id="firstnameTextField" layoutX="173.0" layoutY="131.0" prefHeight="27.0" prefWidth="254.0" promptText="First Name" style="-fx-background-color: #F2D6EE; -fx-border-color: transparent transparent black transparent;" />
+      <TextField fx:id="lastnameTextField" layoutX="173.0" layoutY="188.0" prefHeight="27.0" prefWidth="254.0" promptText="Last Name" style="-fx-background-color: #F2D6EE; -fx-border-color: transparent transparent black transparent;" />
+      <TextField fx:id="usernameTextField" layoutX="173.0" layoutY="248.0" prefHeight="27.0" prefWidth="254.0" promptText="Username" style="-fx-background-color: #F2D6EE; -fx-border-color: transparent transparent black transparent;" />
+      <PasswordField fx:id="passwordTextField" layoutX="173.0" layoutY="309.0" prefHeight="26.0" prefWidth="254.0" promptText="Password" style="-fx-background-color: #F2D6EE; -fx-border-color: transparent transparent black transparent;" />
+      <PasswordField fx:id="confirmpasswordTextField" layoutX="173.0" layoutY="373.0" prefHeight="26.0" prefWidth="254.0" promptText="Confirm Password" style="-fx-background-color: #F2D6EE; -fx-border-color: transparent transparent black transparent;" />
+      <Button fx:id="registerButton" layoutX="173.0" layoutY="517.0" mnemonicParsing="false" onAction="#registerButtonOnAction" prefHeight="26.0" prefWidth="254.0" styleClass="lgBtns" text="Register" />
+      <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exitButtonOnAction" prefHeight="38.0" prefWidth="40.0" styleClass="exit" text="&lt;" />
+      <Label fx:id="registerMessageLabel" alignment="CENTER" layoutX="173.0" layoutY="457.0" prefHeight="18.0" prefWidth="254.0" textFill="#39d155" />
+      <Label fx:id="confirmpasswordMessageLabel" layoutX="427.0" layoutY="377.0" prefHeight="18.0" prefWidth="153.0" textFill="RED" />
+      <RadioButton fx:id="normalRB" layoutX="206.0" layoutY="420.0" mnemonicParsing="false" onAction="#getMembership" text="Normal">
+         <toggleGroup>
+            <ToggleGroup fx:id="memberShip" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="premiumRB" layoutX="306.0" layoutY="420.0" mnemonicParsing="false" onAction="#getMembership" text="Premium" toggleGroup="$memberShip" />
+      <Label fx:id="payMessageLabel" alignment="CENTER" layoutX="173.0" layoutY="482.0" prefHeight="18.0" prefWidth="254.0" textFill="#ffa600" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="600.0" prefWidth="700.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UPSBTController">
+   <children>
+      <Label fx:id="showSongsLabel1" alignment="CENTER" contentDisplay="CENTER" layoutY="123.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showSongsLabel2" alignment="CENTER" contentDisplay="CENTER" layoutY="157.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showSongsLabel3" alignment="CENTER" contentDisplay="CENTER" layoutY="191.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showSongsLabel4" alignment="CENTER" contentDisplay="CENTER" layoutY="225.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showSongsLabel5" alignment="CENTER" contentDisplay="CENTER" layoutY="259.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showSongsLabel6" alignment="CENTER" contentDisplay="CENTER" layoutY="293.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showSongsLabel7" alignment="CENTER" contentDisplay="CENTER" layoutY="327.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showSongsLabel8" alignment="CENTER" contentDisplay="CENTER" layoutY="361.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showSongsLabel9" alignment="CENTER" contentDisplay="CENTER" layoutY="395.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="showSongsLabel10" alignment="CENTER" contentDisplay="CENTER" layoutY="429.0" prefHeight="34.0" prefWidth="700.0" style="-fx-border-color: black; -fx-background-color: #a100ff;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="90.0" layoutY="60.0" prefHeight="54.0" prefWidth="553.0" text="Popular Songs By Type-Top 10">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Line endX="452.0" layoutX="190.0" layoutY="110.0" startX="-100.0" />
+      <TextField fx:id="typeTextField" layoutX="226.0" layoutY="17.0" prefHeight="26.0" prefWidth="191.0" promptText="Type" style="-fx-border-color: transparent transparent black transparent; -fx-background-color: null;" />
+      <Button fx:id="viewButton" layoutX="438.0" layoutY="13.0" mnemonicParsing="false" onAction="#viewButtonAction" prefHeight="34.0" prefWidth="52.0" styleClass="btnsADU" text="View" textFill="WHITE" />
+      <Pane layoutY="464.0" prefHeight="135.0" prefWidth="700.0">
+         <children>
+            <Label fx:id="labelSongName" alignment="CENTER" layoutY="24.0" prefHeight="44.0" prefWidth="700.0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="labelSingerName" alignment="CENTER" layoutX="-1.0" layoutY="-3.0" prefHeight="26.0" prefWidth="700.0">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <HBox alignment="CENTER" layoutY="68.0" prefHeight="20.0" prefWidth="700.0">
+               <children>
+                  <Slider fx:id="time" prefHeight="14.0" prefWidth="583.0" />
+                  <Label fx:id="labelTime" prefHeight="26.0" prefWidth="42.0" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutY="88.0" prefHeight="44.0" prefWidth="700.0" spacing="35.0">
+               <children>
+                  <Button fx:id="backButton" layoutX="50.0" layoutY="50.0" mnemonicParsing="false" onAction="#backButtonAction" prefHeight="50.0" prefWidth="52.0" styleClass="pnbBtns" />
+                  <Button fx:id="playButton" mnemonicParsing="false" onAction="#playButtonAction" prefHeight="50.0" prefWidth="52.0" styleClass="pnbBtns" />
+                  <Button fx:id="nextButton" mnemonicParsing="false" onAction="#nextButtonAction" prefHeight="50.0" prefWidth="52.0" styleClass="pnbBtns" />
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+      <ImageView fx:id="play" fitHeight="26.0" fitWidth="26.0" layoutX="337.0" layoutY="562.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/icons8-play-96.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="next" fitHeight="26.0" fitWidth="26.0" layoutX="427.0" layoutY="563.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/icons8-fast-forward-96.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="26.0" fitWidth="26.0" layoutX="247.0" layoutY="563.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/icons8-rewind-96.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="Listen1" layoutX="650.0" layoutY="127.0" mnemonicParsing="false" onAction="#Listen1Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+      <Button fx:id="Listen2" layoutX="650.0" layoutY="161.0" mnemonicParsing="false" onAction="#Listen2Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+      <Button fx:id="Listen3" layoutX="650.0" layoutY="195.0" mnemonicParsing="false" onAction="#Listen3Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+      <Button fx:id="Listen4" layoutX="650.0" layoutY="229.0" mnemonicParsing="false" onAction="#Listen4Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+      <Button fx:id="Listen5" layoutX="650.0" layoutY="263.0" mnemonicParsing="false" onAction="#Listen5Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+      <Button fx:id="Listen6" layoutX="650.0" layoutY="297.0" mnemonicParsing="false" onAction="#Listen6Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+      <Button fx:id="Listen7" layoutX="650.0" layoutY="331.0" mnemonicParsing="false" onAction="#Listen7Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+      <Button fx:id="Listen8" layoutX="650.0" layoutY="365.0" mnemonicParsing="false" onAction="#Listen8Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+      <Button fx:id="Listen9" layoutX="650.0" layoutY="399.0" mnemonicParsing="false" onAction="#Listen9Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+      <Button fx:id="Listen10" layoutX="650.0" layoutY="433.0" mnemonicParsing="false" onAction="#Listen10Action" prefHeight="26.0" prefWidth="49.0" styleClass="listenBtns" text="Listen" />
+   </children>
+</AnchorPane>

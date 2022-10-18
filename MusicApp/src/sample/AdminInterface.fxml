@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="600.0" prefWidth="1000.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminInterfaceController">
+   <children>
+      <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="85.0">
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8-find-user-male-96.png" />
+               </image>
+            </ImageView>
+            <Label prefHeight="77.0" prefWidth="262.0" text=" Users" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox prefHeight="600.0" prefWidth="300.0">
+         <children>
+            <ImageView fx:id="bgAdminPanel" fitHeight="600.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/AdminPanel.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+      <HBox fx:id="usersBtn" alignment="CENTER_LEFT" layoutY="76.0" prefHeight="75.0" prefWidth="300.0" style="-fx-border-color: black;" styleClass="btn">
+         <children>
+            <ImageView fx:id="searchUserImageView" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8-find-user-male-96.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="usersBtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#usersButtonAction" prefHeight="75.0" prefWidth="260.0" style="-fx-background-color: null;" styleClass="btns" text="Users" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Label prefHeight="75.0" prefWidth="300.0" style="-fx-border-color: transparent transparent transparent transparent; -fx-background-color: black;" text="                      Admin" textFill="WHITE">
+         <font>
+            <Font name="Ebrima" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="adminImageView" fitHeight="75.0" fitWidth="74.0" layoutX="20.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/icons8-admin-settings-male-96.png" />
+         </image>
+      </ImageView>
+      <HBox fx:id="songBtn" alignment="CENTER_LEFT" layoutY="152.0" prefHeight="75.0" prefWidth="300.0" style="-fx-border-color: black;" styleClass="btn">
+         <children>
+            <ImageView fx:id="songIconImageView" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8-add-song-96.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="songsBtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#songsButtonAction" prefHeight="75.0" prefWidth="260.0" style="-fx-background-color: null;" styleClass="btns" text="Songs" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox fx:id="singerBtn" alignment="CENTER_LEFT" layoutY="228.0" prefHeight="75.0" prefWidth="300.0" style="-fx-border-color: black;" styleClass="btn">
+         <children>
+            <ImageView fx:id="singerIconImageView" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8-audio-wave-96.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="singerBtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#singersButtonAction" prefHeight="75.0" prefWidth="260.0" style="-fx-background-color: null;" styleClass="btns" text="Singer" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox fx:id="albumBtn" alignment="CENTER_LEFT" layoutY="304.0" prefHeight="75.0" prefWidth="300.0" style="-fx-border-color: black;" styleClass="btn">
+         <children>
+            <ImageView fx:id="albumIconImageView" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/icons8-music-library-96.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="albumBtn" alignment="BASELINE_LEFT" mnemonicParsing="false" onAction="#albumsButtonAction" prefHeight="75.0" prefWidth="260.0" style="-fx-background-color: null;" styleClass="btns" text="Album" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <AnchorPane fx:id="ancPane" layoutX="300.0" prefHeight="600.0" prefWidth="700.0" />
+      <Button fx:id="exitButton" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="971.0" mnemonicParsing="false" onAction="#exitButtonAction" prefHeight="35.0" prefWidth="23.0" styleClass="exit" text="X">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Line endX="194.4000244140625" layoutX="77.0" layoutY="75.0" startX="-56.19999313354492" stroke="#f20000" />
+   </children>
+</AnchorPane>
